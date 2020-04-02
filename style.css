@@ -128,6 +128,7 @@ a {
 
 .top-content {
     display: flex;
+    flex-wrap: wrap;
     width: 60%;
     justify-content: space-around;
     position: absolute;
@@ -135,6 +136,8 @@ a {
     left: 20%;
     background: #fff;
     box-shadow: 0 3px 10px -4px black;
+    min-width: 255px;
+    text-align: center;
 }
 
 .top-content-text1 {
@@ -156,6 +159,7 @@ a {
 
 .top-content-img {
     width: 100%;
+    min-width: 170px;
 }
 
 .products-container {
@@ -225,12 +229,14 @@ a {
     width: 30%;
     padding: 10px;
     min-width: 180px;
+    margin: 0 auto;
 }
 
 .products-imgs2 {
-    width: 33%;
-    margin-bottom: 5px;
+    width: 30%;
     position: relative;
+    min-width: 170px;
+    margin: 0 auto;
 }
 
 .products-box2-shop {
@@ -238,12 +244,14 @@ a {
     opacity: 0;
     font-family: 'Montserrat', sans-serif;
     position: absolute;
-    top: 42%;
+    top: 50%;
     color: #fff;
-    left: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     border: 1px solid #FFF;
     padding: 10px;
     z-index: 1;
+    text-align: center;
 }
 
 .products-imgs2 a:hover {
@@ -342,8 +350,8 @@ a {
 .servicec-box {
     width: 25%;
     padding: 25px;
-    margin: 30px 0;
     min-width: 170px;
+    margin: 30px auto;
 }
 
 .box-svgs {
@@ -380,7 +388,7 @@ a {
     background-image: url("image/Rectangle2.png");
     background-size: cover;
     background-repeat: no-repeat;
-    height: 70vh;
+    height: 80vh;
 }
 
 .profile-container {
@@ -412,13 +420,14 @@ a {
     width: 60%;
     margin: 0 auto;
     line-height: 30px;
+    min-width: 300px;
 }
 
 .contact-image {
     background-image: url("image/CONTACT.png");
     background-size: cover;
     background-repeat: no-repeat;
-    height: 80vh;
+    height: 90vh;
 }
 
 .contact-container {
@@ -505,15 +514,18 @@ a {
 }
 
 .footer-logos ul {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
     width: 100%;
-    list-style: none;
     display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    list-style: none;
 }
 
 .footer-logos svg {
     transition: all 0.5s;
     fill: #cacaca;
-    width: 30%;
 }
 .footer-logos svg:hover {
     transition: all 0.5s;
