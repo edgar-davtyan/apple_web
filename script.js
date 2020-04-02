@@ -9,12 +9,12 @@ window.onscroll = function f() {
         nav.classList.remove("back")
     }
     if (document.documentElement.scrollTop > 150) {
-    product.classList.add("active")
+        product.classList.add("active")
     }
-};
     if (document.documentElement.scrollTop > 650) {
-        servicec.classList.add("active2");
+        servicec.classList.add("active2")
+    }
     if (document.documentElement.scrollTop > 1550) {
         product2.classList.add("active3")
     }
-}
+};
