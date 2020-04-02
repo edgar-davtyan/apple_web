@@ -91,6 +91,8 @@ a {
     background-image: url("image/Rectangle.png");
     height: 100vh;
     position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .top-title-box {
@@ -109,6 +111,7 @@ a {
 .top-title {
     width: 60%;
     margin: 0 auto;
+    min-width: 320px;
 }
 
 .top-title-subtitle {
@@ -183,6 +186,7 @@ a {
     width: 50%;
     margin: 0 auto;
     overflow: hidden;
+    flex-wrap: wrap;
 }
 
 .active {
@@ -219,6 +223,8 @@ a {
 
 .products-imgs {
     width: 30%;
+    padding: 10px;
+    min-width: 180px;
 }
 
 .products-imgs2 {
@@ -232,9 +238,9 @@ a {
     opacity: 0;
     font-family: 'Montserrat', sans-serif;
     position: absolute;
-    top: 50%;
+    top: 42%;
     color: #fff;
-    left: 30%;
+    left: 25%;
     border: 1px solid #FFF;
     padding: 10px;
     z-index: 1;
@@ -277,6 +283,7 @@ a {
 
 .products-img2 {
     width: 100%;
+    position: relative;
 }
 
 .buttons-box {
@@ -336,6 +343,7 @@ a {
     width: 25%;
     padding: 25px;
     margin: 30px 0;
+    min-width: 170px;
 }
 
 .box-svgs {
@@ -426,13 +434,14 @@ a {
 
 .reg-box {
     position: absolute;
-    top: 30%;
+    top: 25%;
     width: 100%;
 }
 
 .reg-content {
     width: 30%;
     margin: 0 auto;
+    min-width: 260px;
 }
 
 .reg {
